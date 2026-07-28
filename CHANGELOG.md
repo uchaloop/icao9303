@@ -5,6 +5,17 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+- No changes yet.
+
+## [1.0.1] - 2026-07-28
+
+### Added
+
+- Contribution guide (`CONTRIBUTING.md`).
+- CI workflow (GitHub Actions: gofmt, go vet, go test) and a CI status badge.
+
 ## [1.0.0] - 2026-07-28
 
 Initial release. Cyrillic transliteration and passport MRZ (TD3) support based
@@ -42,4 +53,6 @@ on the official standards: [ICAO Doc 9303, Part 3](https://www.icao.int/publicat
   component-wise algorithm.
 - The sex field accepts only Latin `"M"`/`"F"`.
 
+[Unreleased]: https://github.com/uchaloop/icao9303/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/uchaloop/icao9303/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/uchaloop/icao9303/releases/tag/v1.0.0
