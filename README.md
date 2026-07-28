@@ -1,5 +1,9 @@
 # icao9303
 
+[![CI](https://github.com/uchaloop/icao9303/actions/workflows/ci.yml/badge.svg)](https://github.com/uchaloop/icao9303/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/uchaloop/icao9303.svg)](https://pkg.go.dev/github.com/uchaloop/icao9303)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **English** · [Русский](README.ru.md)
 
 Cyrillic <-> Latin transliteration and building/parsing of the passport
