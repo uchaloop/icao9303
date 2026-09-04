@@ -9,6 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - No changes yet.
 
+## [1.1.0] - 2026-09-04
+
+### Changed
+
+- Lowered the minimum required Go version from 1.26 to **1.20** (`go` directive
+  in `go.mod`, `README.md`, `README.ru.md`, `CONTRIBUTING.md`). The library uses
+  no language feature or standard-library symbol newer than `errors.Join`,
+  which is the 1.20 floor.
+- CI now runs the checks on a matrix of Go 1.20 (the declared minimum) and the
+  current stable release instead of a single version taken from `go.mod`.
+
 ## [1.0.1] - 2026-07-28
 
 ### Added
@@ -53,6 +64,7 @@ on the official standards: [ICAO Doc 9303, Part 3](https://www.icao.int/publicat
   component-wise algorithm.
 - The sex field accepts only Latin `"M"`/`"F"`.
 
-[Unreleased]: https://github.com/uchaloop/icao9303/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/uchaloop/icao9303/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/uchaloop/icao9303/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/uchaloop/icao9303/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/uchaloop/icao9303/releases/tag/v1.0.0
