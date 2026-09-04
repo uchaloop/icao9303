@@ -5,7 +5,7 @@ library, so the guidelines are short.
 
 ## Prerequisites
 
-- **Go 1.26+**
+- **Go 1.20+**
 - No third-party dependencies are allowed - the library must stay
   standard-library only.
 

@@ -8,7 +8,7 @@
 
 Cyrillic <-> Latin transliteration and building/parsing of the passport
 Machine-Readable Zone (MRZ, TD3), following the **ICAO Doc 9303** standard.
-Requires **Go 1.26+**, no dependencies.
+Requires **Go 1.20+**, no dependencies.
 
 ## Sources
 
